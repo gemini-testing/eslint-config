@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-gemini-testing",
+  "version": "1.0.4",
+  "description": "ESLint config for gemini-testing project",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Rostislav Shtanko <rostik404@yandex-team.ru>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gemini-testing/eslint-config.git"
+  },
+  "peerDependencies": {
+    "eslint": "^3.0.1"
+  },
+  "main": "index.js"
+}
