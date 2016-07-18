@@ -40,24 +40,5 @@ module.exports = {
         'no-caller': 'error',
         'no-new': 'error',
         'no-undef': 'error',
-    },
-    'globals': {
-        'describe': false,
-        'before': false,
-        'after': false,
-        'beforeEach': false,
-        'afterEach': false,
-        'it': false,
-        'assert': false,
-        'sinon': false,
-        'window': false,
-        'document': false,
-        'navigator': false,
-        'Node': false
-    },
-    'overrides': {
-        'test/**': {
-            mocha: true
-        }
     }
 }
