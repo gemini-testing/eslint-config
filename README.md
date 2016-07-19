@@ -1,9 +1,35 @@
 # eslint-config-gemini-testing
 
-Конфиг для [ESLint](http://eslint.org/).
+Config for [ESLint](http://eslint.org/).
 
-## Установка
+## Installation
 
 ```bash
 $ npm install eslint-config-gemini-testing
+```
+
+## Using in a project
+
+* Add file `.eslintrc.js` to the root of your project:
+
+```js
+module.exports = {
+    extends: 'gemini-testing',
+    root: true
+};
+```
+
+* Add file `.eslintrc.js` to the test folder
+
+```js
+module.exports = {
+    extends: 'gemini-testing/tests'
+};
+```
+* Add file `.eslintrc.js` to the floder with client js
+
+```js
+module.exports = {
+    extends: 'gemini-testing/browser'
+};
 ```
