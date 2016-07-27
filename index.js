@@ -17,7 +17,7 @@ module.exports = {
         'key-spacing': ['error', {beforeColon: false, afterColon: true}],
         'keyword-spacing': 'error',
         'linebreak-style': ['error', 'unix'],
-        'new-cap': ['error', { capIsNew: false }],
+        'new-cap': ['error', {capIsNew: false}],
         'no-bitwise': 'error',
         'no-caller': 'error',
         'no-extend-native': 'error',
