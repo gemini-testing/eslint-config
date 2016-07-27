@@ -4,6 +4,7 @@ module.exports = {
         node: true
     },
     rules: {
+        'semi': 'error',
         'curly': 'error',
         'object-curly-spacing': ['error', 'never'],
         'keyword-spacing': 'error',
@@ -39,6 +40,6 @@ module.exports = {
         'no-use-before-define': ['error', {functions: false, classes: true }],
         'no-caller': 'error',
         'no-new': 'error',
-        'no-undef': 'error',
+        'no-undef': 'error'
     }
 }
