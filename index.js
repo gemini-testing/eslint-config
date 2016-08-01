@@ -28,6 +28,7 @@ module.exports = {
         'no-new': 'error',
         'no-trailing-spaces': 'error',
         'no-undef': 'error',
+        'no-unused-vars': ['error', { 'vars': 'all', 'args': 'after-used' }],
         'no-use-before-define': ['error', {functions: false, classes: true }],
         'no-with': 'error',
         'object-curly-spacing': ['error', 'never'],
