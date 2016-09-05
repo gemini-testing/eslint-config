@@ -19,14 +19,14 @@ module.exports = {
 };
 ```
 
-* Add file `.eslintrc.js` to the test folder
+* Add file `.eslintrc.js` to the test folder:
 
 ```js
 module.exports = {
     extends: 'gemini-testing/tests'
 };
 ```
-* Add file `.eslintrc.js` to the floder with client js
+* Add file `.eslintrc.js` to the folder with client js:
 
 ```js
 module.exports = {
