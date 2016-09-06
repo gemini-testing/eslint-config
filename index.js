@@ -8,6 +8,7 @@ module.exports = {
         'brace-style': ['error', '1tbs', {allowSingleLine: false}],
         'camelcase': 'error',
         'comma-dangle': ['error', 'never'],
+        'comma-spacing': ["error", { "before": false, "after": true }],
         'comma-style': ['error', 'last'],
         'consistent-this': ['error', '_this'],
         'curly': 'error',
