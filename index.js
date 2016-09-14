@@ -1,4 +1,5 @@
 module.exports = {
+    extends: 'eslint:recommended',
     env: {
         es6: true,
         node: true
@@ -21,6 +22,7 @@ module.exports = {
         'new-cap': ['error', {capIsNew: false}],
         'no-bitwise': 'error',
         'no-caller': 'error',
+        'no-console': ['error', { allow: ['log', 'warn', 'error'] }],
         'no-extend-native': 'error',
         'no-mixed-spaces-and-tabs': 'error',
         'no-multi-spaces': 'error',
