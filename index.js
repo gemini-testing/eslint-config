@@ -36,7 +36,7 @@ module.exports = {
         'no-with': 'error',
         'object-curly-spacing': ['error', 'never'],
         'padded-blocks': ['error', 'never'],
-        'quotes': ['error', 'single'],
+        'quotes': ['error', 'single', { 'allowTemplateLiterals': true }],
         'semi': 'error',
         'space-before-blocks': 'error',
         'space-before-function-paren': ['error', 'never'],
