@@ -22,7 +22,7 @@ module.exports = {
         'new-cap': ['error', {capIsNew: false}],
         'no-bitwise': 'error',
         'no-caller': 'error',
-        'no-console': ['error', { allow: ['log', 'warn', 'error'] }],
+        'no-console': 'off',
         'no-extend-native': 'error',
         'no-mixed-spaces-and-tabs': 'error',
         'no-multi-spaces': 'error',
