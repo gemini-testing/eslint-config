@@ -45,5 +45,8 @@ module.exports = {
         'space-unary-ops': 'error',
         'wrap-iife': ['error', 'any'],
         'yoda': 'error'
+    },
+    'parserOptions': {
+        sourceType: 'module'
     }
 }
