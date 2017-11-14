@@ -39,7 +39,7 @@ module.exports = {
         'quotes': ['error', 'single', { 'allowTemplateLiterals': true }],
         'semi': 'error',
         'space-before-blocks': 'error',
-        'space-before-function-paren': ['error', 'never'],
+        'space-before-function-paren': ['error', {'anonymous': 'never', 'named': 'never', 'asyncArrow': 'always'}],
         'space-in-parens': ['error', 'never'],
         'space-infix-ops': 'error',
         'space-unary-ops': 'error',
