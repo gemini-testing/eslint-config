@@ -12,8 +12,5 @@
     "type": "git",
     "url": "https://github.com/gemini-testing/eslint-config.git"
   },
-  "peerDependencies": {
-    "eslint": "^3.0.1"
-  },
   "main": "index.js"
 }
