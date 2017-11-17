@@ -47,6 +47,7 @@ module.exports = {
         'yoda': 'error'
     },
     'parserOptions': {
-        sourceType: 'module'
+        sourceType: 'module',
+        ecmaVersion: 8
     }
 }
