@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gemini-testing",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "description": "ESLint config for gemini-testing project",
   "keywords": [
     "eslint",
